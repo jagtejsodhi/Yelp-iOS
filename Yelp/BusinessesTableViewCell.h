@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Business.h"
 
 @interface BusinessesTableViewCell : UITableViewCell
-
+@property (nonatomic, strong) Business* business;
 @end
